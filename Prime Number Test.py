@@ -5,7 +5,7 @@
 #-----------------------------------------------------*
 
 def IsPrime(num):
-     if num==2 or num==1:
+     if num==2 :
          return str(num) + "  IS A PRIME NUMBER"
      else:
          for i in range(2, int((num/2)+2)):
